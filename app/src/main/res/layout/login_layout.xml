@@ -14,9 +14,9 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/bolinho"
-        android:layout_marginTop="100dp"/>
+        android:src="@drawable/bolinho" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/email"
@@ -59,11 +59,11 @@
         android:id="@+id/EntrarBTN"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:text="Entrar "
         android:layout_gravity="center_horizontal"
-        android:textSize="15dp"
         android:layout_marginTop="6dp"
         android:backgroundTint="#4a2e00"
+        android:text="Entrar "
+        android:textSize="15dp"
 
         />
 
@@ -71,17 +71,17 @@
         android:id="@+id/CadastroBTN"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:text="Cadastrar-se "
         android:layout_gravity="center_horizontal"
-        android:textSize="15dp"
         android:layout_margin="5dp"
         android:backgroundTint="#4a2e00"
-        />
+        android:text="Cadastrar-se "
+        android:textSize="15dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Esqueceu a senha?"android:layout_marginTop="60dp"
         android:layout_gravity="center_horizontal"
-        />
+        android:layout_marginTop="60dp"
+        android:text="Esqueceu a senha?" />
 
 </LinearLayout>
