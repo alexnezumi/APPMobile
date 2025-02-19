@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+android:layout_margin="20dp"
     tools:context=".LoginActivity">
 
 
@@ -24,12 +24,13 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:hint="Email"
-        app:endIconMode="clear_text">
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/email">
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="350dp"
-            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:inputType="textPassword" />
 
@@ -42,12 +43,13 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:hint="Senha"
-        app:endIconMode="clear_text">
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/lock">
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="350dp"
-            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:inputType="textPassword" />
 
@@ -57,25 +59,25 @@
 
     <Button
         android:id="@+id/EntrarBTN"
-        android:layout_width="350dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="6dp"
         android:backgroundTint="#4a2e00"
         android:text="Entrar "
-        android:textSize="15dp"
+        android:textSize="15sp"
 
         />
 
     <Button
         android:id="@+id/CadastroBTN"
-        android:layout_width="350dp"
-        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="5dp"
         android:backgroundTint="#4a2e00"
         android:text="Cadastrar-se "
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="wrap_content"
